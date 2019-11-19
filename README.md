@@ -141,7 +141,7 @@ cellType = "A549"         # which model to use, provided options are: "A549"/"CD
 **Step 3**, applying models for prediction: 
 
 ```
-TDm6A_application(faFile_Input, plot_Output,csvFile_Output, cellType)
+TDm6A_application(faFile_Input, plot_Output, csvFile_Output, cellType)
 ```
 
 To indicate the progress of the prediction, you will see the following running logs:
