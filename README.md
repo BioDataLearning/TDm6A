@@ -131,9 +131,9 @@ library(seqinr)
 **Step 2**, setting the file path for input and output files, selecting specific models to use: 
 
 ```  
-faFile_Input = "Desktop/XIST.fa"                      # full file path for the input fasta file
-plot_Output = "Desktop/XIST_predicted_m6A.png"        # full file path for the output plot   
-csvFile_Output = "Desktop/XIST_predicted_result.csv"  # full file path for the output result
+faFile_Input = "Desktop/XIST.fa"                      # file path for the input fasta file, change to your own settings
+plot_Output = "Desktop/XIST_predicted_m6A.png"        # file path for the output plot, change to your own settings   
+csvFile_Output = "Desktop/XIST_predicted_result.csv"  # file path for the output result, change to your own settings
 
 cellType = "A549"         # which model to use, provided options are: "A549"/"CD8T"/"HEK293"/"panCell_mRNA"/"panCell_preRNA".
                           # If no preferred cell type, users can use the pan-cell model with transcript in mRNA or preRNA mode.
