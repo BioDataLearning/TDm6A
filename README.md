@@ -116,7 +116,7 @@ TDm6A_getMotifs(x_train_HEK293, y_train_HEK293, x_test_HEK293, y_test_HEK293,"HE
 ``` 
 
 # Apply TDm6A to predict m6A sites on a given transcript 
-For the easy and convinient application of TDm6A models, the function **TDm6A_application(faFile_Input,plot_Output,csvFile_Output, cellType)** is available for users to predict m6A sites on a given transcript. Users only need to prepare the individual fasta files for each transcript of interest. As a result, the fucntion will output a .png file and .csv file to the specified file paths.
+For the easy and convinient application of TDm6A models, the function **TDm6A_application( faFile_Input, plot_Output, csvFile_Output, cellType )** is available for users to predict m6A sites on a given transcript. Users only need to prepare the individual fasta files for each transcript of interest. As a result, the fucntion will output a .png file and .csv file to the specified file paths.
 
 **Usage:** here, we use XIST transcript as an example:
 
