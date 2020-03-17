@@ -1,7 +1,7 @@
 # TDm6A
 In this study, by applying convolutional neural network (CNN) and long short term memory (LSTM), we have developed TDm6A, a deep learning model for predicting RNA m6A modifications in human cells.   
 
-This documentation is part of the supplementary information release for TDm6A. For details of this work, users can refer to our paper "**Deep analysis of RNA N6-adenosine methylation (m6A) patterns in human cells**" (J. Wang  and L. Wang, 2019). 
+This documentation is part of the supplementary information release for TDm6A. For details of this work, users can refer to our paper "**Deep analysis of RNA N6-adenosine methylation (m6A) patterns in human cells**" (J. Wang  and L. Wang, 2020). 
 
 # Requirements 
 TDm6A is an R package with one necessary function written in Python. To use TDm6A, R version >= 3.4 is required. Versions for other packages are suggested. 
